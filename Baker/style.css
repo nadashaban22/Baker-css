@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&family=Tajawal&family=Vazirmatn:wght@200;300;400&display=swap');
+
+
+ * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.home {
+  text-align: center;
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-size: 100% 100%;
+}
+
+.nav-bar {
+  width: 90%;
+  margin: auto;
+}
+
+.nav-bar img {
+  float: left;
+  width: 150px;
+  margin: 20px;
+}
+
+.nav-bar ul {
+  float: right;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.clr {
+  clear: both;
+}
+
+.intro {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.intro h1 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  font-size: 50px;
+  color: white;
+  font-weight: 200;
+}
+
+.intro p {
+  padding-top: 10px;
+  font-size: 22px;
+  color: white;
+}
+
+.intro button {
+  padding: 15px 28px;
+  color: white;
+  border: solid 2px white;
+  margin-top: 30px;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.btn-learn {
+  background-color: #8e7754;
+}
+
+.btn-contact {
+  background-color: transparent;
+  margin-left: 12px;
+}
+
+
+.who-we-r {
+  background-color: white;
+  width: 93%;
+  margin: auto;
+  padding: 40px;
+  /* when I write margin:20px 0px 20px 0px the design in browser is differ (why)?? */
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.who-we-r-item {
+  width: 50%;
+  float: left;
+  font-size: 20px;
+
+}
+
+.who-we-r-item img {
+  width: 85%;
+}
+
+.who-we-r-item h2 {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  color: #323232;
+  font-weight: 100;
+}
+
+.who-we-r-item p {
+  color: #888;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.icons-item {
+  float: left;
+}
+
+.icons p {
+  padding: 10px 0px;
+  color: #888;
+}
+
+.location {
+  background-color: #f8f8f8;
+  width: 93%;
+  margin: auto;
+  margin-bottom: 30px;
+  padding: 40px;
+
+}
+
+.location-item {
+  width: 50%;
+  float: left;
+  font-size: 20;
+}
+
+.location-item img {
+  width: 85%;
+}
+
+.location-item h2 {
+  margin-top: 50px;
+  padding: 20px;
+  color: #323232;
+  font-weight: 200;
+}
+
+.location-item p {
+  color: #888;
+  padding: 30px;
+
+}
+
+.baking {
+  text-align: center;
+ box-sizing: border-box;
+ padding: 0px 15px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.baking-item {
+  width: 33.33%;
+  float: left;
+
+}
+
+.baking-item img {
+  width: 90%;
+
+}
+
+.baking h2 {
+  margin-top: 50px;
+  padding: 25px 0px;
+  color: #323232;
+  font-weight: 200;
+
+}
+
+.baking p {
+  color: #888;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.baking-item h3 {
+  padding: 25px 0px;
+  color: #323232;
+  font-weight: 200;
+
+}
+
+.baking-item p {
+  color: #888;
+  font-size: 17px;
+  padding: 0px 15px;
+}
+
+
+.contact {
+  background-color: #f8f8f8;
+  
+  margin: auto;
+ 
+  padding: 40px;
+  font-size: 20px;
+
+}
+
+.contact-item {
+  width: 50%;
+  float: left;
+
+}
+
+.contact-item h2 {
+  margin-top: 30px;
+  padding: 20px;
+  color: #323232;
+  font-weight: 200;
+}
+
+.contact-item p {
+  color: #888;
+  padding: 15px;
+}
+
+.contact-item img {
+  width: 85%;
+}
+
+.about {
+  background-color: #403d38; 
+  margin: auto;
+  padding: 40px;
+}
+
+.about-item {
+  width: 25%;
+  float: left;
+  padding: 0 20px;
+}
+
+.about-item h3{
+  color: white;
+  font-weight: 200;
+  padding: 20px;
+}
+
+.about-item p{
+  padding: 10px;
+  color: #888;
+}
+
+.about-item ul{
+  list-style: none;
+}
+
+.about-item li{
+  color: #888;
+  padding: 7px;
+  border-bottom: 1px solid rgb(255, 255, 255,0.05);
+  
+}
+
+
+.bck-img{
+  background-image: url(images/contact-details-map.png);
+  background-position: center;
+  background-repeat: no-repeat ;
+  filter: invert();
+}
+
+.no-border{
+ border: none !important;
+
+}
+
+.header{
+  background-color: #353330;
+  margin: auto;
+padding: 40px;
+ text-align: center;
+}
+
+.header h5{
+  margin: 30px 0px;
+  color: #888;
+}
+
+
+hr{
+
+  width: 80%;
+  color: #888;
+}
